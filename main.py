@@ -14,3 +14,8 @@
 #Use the print() function to format the given words in the mentioned format. Display the ** separator between each string.
 #I honestly had to look at the solution for this. I'd never seen the sep function before. Neat new trick learned!
 print('My', 'Name', 'Is', 'James', sep='**')
+
+#Exercise 3: Convert Decimal number to octal using print() output formatting
+# Now this is interesting. I'm not even sure what they're talking about. What's an octal? I had to use the solution as I had no idea what they were on about.
+num = 8
+print('%o' % num)
