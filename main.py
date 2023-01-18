@@ -19,3 +19,8 @@ print('My', 'Name', 'Is', 'James', sep='**')
 # Now this is interesting. I'm not even sure what they're talking about. What's an octal? I had to use the solution as I had no idea what they were on about.
 num = 8
 print('%o' % num)
+
+#Exercise 4: Display float number with 2 decimal places using print()
+#All this math is rather.. uninteresting. What real world applications does it server?
+num = 458.541315
+print('%.2f' % num)
