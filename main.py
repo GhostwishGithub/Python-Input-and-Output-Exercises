@@ -24,3 +24,13 @@ print('%o' % num)
 #All this math is rather.. uninteresting. What real world applications does it server?
 num = 458.541315
 print('%.2f' % num)
+
+#Exercise 5: Accept a list of 5 float numbers as an input from the user
+#Well that's back to basic simple. Loop, with float values and input. then stick em in a list and spit it back out
+results = []
+for x in range(1, 6):
+    print("Enter the number for space", x, ":")
+    userInput = float(input())
+    results.append(userInput)
+
+print("Here's the results:", results)
