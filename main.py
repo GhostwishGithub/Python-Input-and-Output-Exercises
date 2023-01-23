@@ -35,3 +35,8 @@ print('%.2f' % num)
 
 # print("Here's the results:", results)
 #Commented out for expediency's sake
+
+#Exercise 6: Write all content of a given file into a new file by skipping line number 5
+#Ohhhh. We never really got into this in devCodeCamp. I was very disappointed. This'll be interesting.
+#So Python has a built in function called readlines() that accesses files. neat!
+#Okay, made the test file, let's do this.
