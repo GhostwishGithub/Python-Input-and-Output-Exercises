@@ -1,4 +1,4 @@
-#Continuing my practice with python
+# Continuing my practice with python
 # #Exercise 1: Accept numbers from a user
 # #Write a program to accept two numbers from the user and calculate multiplication
 # #Basic stuff, input and what not.
@@ -40,3 +40,17 @@ print('%.2f' % num)
 #Ohhhh. We never really got into this in devCodeCamp. I was very disappointed. This'll be interesting.
 #So Python has a built in function called readlines() that accesses files. neat!
 #Okay, made the test file, let's do this.
+#Okay, so, to read this, you can use something called 'with open'. Which uses r as read and w as write. x is just a target variable.
+# with open("test.txt", "r") as x:
+#     lines = x.readlines()
+# #Now, to make a new file and basically walk through test.txt in making it.
+# with open("new.txt", "w") as x:
+#     count = 0
+#     for line in lines:
+#         if count == 4:
+#             count += 1
+#             continue
+#         else:
+#             x.write(line)
+#             count += 1
+#             # Success! Now commenting out to keep it from making new files everytime lol.
