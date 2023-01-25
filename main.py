@@ -63,3 +63,13 @@ print('%.2f' % num)
 # print("Name 2 is:", str2)
 # print("Name 3 is:", str3)
 #Commented out for expediency.
+
+#Exercise 8: Format Variables using a string.format() method.
+#So I was thinking they really should have included a hint with this one, but in review, I suppose that hint would have just been "google string.format()" because that function in 
+#itself has a lot of strange variables that you can use.
+totalMoney = 1000
+quantity = 3
+price = 450
+#This is the part where a bit of googling helped: ':' says Use a space to insert an extra space before positive numbers (and a minus sign before negative numbers) the . gets thrown in between the f, which sets a Fix point number format
+answer = "I have {1} dollars so I can buy {0} football tickets for {2:.2f} dollars."
+print(answer.format(quantity, totalMoney, price))
