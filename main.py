@@ -58,7 +58,8 @@ print('%.2f' % num)
 #Exercise 7: Accept any three string from one input() call
 #Write a program to take three names as input from a user in the single input() function call.
 #The hint gives it away. You use the split function to control the input.
-str1, str2, str3 = input("Enter the three names, each seperated by a space:").split()
-print("Name 1 is:", str1)
-print("Name 2 is:", str2)
-print("Name 3 is:", str3)
+# str1, str2, str3 = input("Enter the three names, each seperated by a space:").split()
+# print("Name 1 is:", str1)
+# print("Name 2 is:", str2)
+# print("Name 3 is:", str3)
+#Commented out for expediency.
