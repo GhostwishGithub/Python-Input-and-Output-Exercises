@@ -73,3 +73,14 @@ price = 450
 #This is the part where a bit of googling helped: ':' says Use a space to insert an extra space before positive numbers (and a minus sign before negative numbers) the . gets thrown in between the f, which sets a Fix point number format
 answer = "I have {1} dollars so I can buy {0} football tickets for {2:.2f} dollars."
 print(answer.format(quantity, totalMoney, price))
+
+#Exercise 9: Check file is empty or not
+#Okay! This'll tie in nicely with #6!
+#Via the hint, there's a useful function: os.stat('file_name').st_size(). Let's try it out with an if/else statement
+#it does require us to import os however.
+import os
+check = os.stat("test.txt").st_size
+if check == 0:
+    print("The file is empty.")
+else:
+    print("The file is NOT empty!")
