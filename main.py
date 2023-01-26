@@ -84,3 +84,12 @@ if check == 0:
     print("The file is empty.")
 else:
     print("The file is NOT empty!")
+
+#Exercise 10: Read line number 4 from the following file
+#A bit of a refinement of #6. Easy enough?
+# read file
+with open("test.txt", "r") as fp:
+    # read all lines from a file
+    lines = fp.readlines()
+    # get line number 4
+    print(lines[3])
