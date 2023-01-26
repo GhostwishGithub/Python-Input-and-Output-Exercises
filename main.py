@@ -93,3 +93,5 @@ with open("test.txt", "r") as fp:
     lines = fp.readlines()
     # get line number 4
     print(lines[3])
+
+    #and they are all complete. I am exhausted today so I'll move onto the next exercise tomorrow.
